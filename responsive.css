@@ -42,7 +42,7 @@
     width: 100%;
   }
 }
-@media(min-width: 450px){/*iphoneXR用*/
+@media(max-width: 450px){/*iphoneXR用*/
   .mainTitles{
     font-size: 30px;
   }
