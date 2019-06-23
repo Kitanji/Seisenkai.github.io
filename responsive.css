@@ -1,4 +1,4 @@
-@media(min-width: 360px){/*Android用*/
+@media(max-width: 360px){/*Android用*/
   .mainTitles{
     font-size: 30px;
   }
