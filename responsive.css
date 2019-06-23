@@ -21,20 +21,20 @@
     display: none;
   }
   .remark{
-    margin-bottom: 1500px;
+    margin-bottom: 1700px;
   }
   .remarkTitle{
     height: 200px;
   }
   .remarkTitle h3{
-    font-size: 15px;
-    left: 50px;
+    font-size: 18px;
+    left: 70px;
     bottom: 150px;
   }
   .remarkTitle h4{
-    font-size: 8px;
-    left: 50px;
-    bottom: 200px;
+    font-size: 12px;
+    left: 70px;
+    bottom: 150px;
   }
   .remarkContent {
     font-size: 15px;
@@ -62,7 +62,7 @@
   }
   .sub{
     width: 100%;
-    height: 720px;
+    height: 700px;
   }
 }
 @media(min-width: 960px){/*PC用*/
