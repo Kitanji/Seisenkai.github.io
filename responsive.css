@@ -1,11 +1,134 @@
 @media(min-width: 360px){/*Android用*/
-  
+  .mainTitles{
+    font-size: 30px;
+  }
+  .headTitle{
+    height: 100px;
+  }
+  .titlelogo{
+    width: 250px;
+  }
+  .remark{
+    margin-bottom: 1100px;
+  }
+  .remarkTitle h3{
+    font-size: 50px;
+    bottom: 250px;
+  }
+  .remarkTitle h4{
+    font-size: 40px;
+    bottom: 300px;
+  }
+  .remarkContent {
+    font-size: 20px;
+    text-indent: 2em;
+  }
+  .main{
+    width: 100%;
+  }
+  .main h2{
+    font-size: 100px;
+  }
+  .main h3{
+    font-size: 50px;
+  }
+  .main p{
+    font-size: 20px;
+  }
+  .main a{
+    font-size: 20px;
+  }
+  .sub{
+    width: 100%;
+  }
 }
 @media(max-width: 375px){/*iphone8用*/
-  
+  .mainTitles{
+    font-size: 30px;
+  }
+  .headTitle{
+    height: 100px;
+  }
+  .titlelogo{
+    width: 250px;
+  }
+  .remark{
+    margin-bottom: 1100px;
+  }
+  .remarkTitle h3{
+    font-size: 50px;
+    bottom: 250px;
+  }
+  .remarkTitle h4{
+    font-size: 40px;
+    bottom: 300px;
+  }
+  .remarkContent {
+    font-size: 20px;
+    text-indent: 2em;
+  }
+  .main{
+    width: 100%;
+  }
+  .main h2{
+    font-size: 100px;
+  }
+  .main h3{
+    font-size: 50px;
+  }
+  .main p{
+    font-size: 20px;
+  }
+  .main a{
+    font-size: 20px;
+  }
+  .sub{
+    width: 100%;
+  }
 }
 @media(max-width: 412px){/*Android用*/
-  
+  .mainTitles{
+    font-size: 30px;
+  }
+  .headTitle{
+    height: 100px;
+  }
+  .titlelogo{
+    width: 250px;
+  }
+  .remark{
+    margin-bottom: 1100px;
+  }
+  .remarkTitle h3{
+    font-size: 50px;
+    bottom: 250px;
+  }
+  .remarkTitle h4{
+    font-size: 40px;
+    bottom: 300px;
+  }
+  .remarkContent {
+    font-size: 20px;
+    text-indent: 2em;
+  }
+  .main{
+    width: 100%;
+  }
+  .main h2{
+    font-size: 100px;
+  }
+  .main h3{
+    font-size: 50px;
+  }
+  .main p{
+    font-size: 20px;
+  }
+  .main a{
+    font-size: 20px;
+  }
+  .sub{
+    width: 100%;
+  }
 }
 @media(max-width: 450px){/*iphoneXR用*/
   .mainTitles{
