@@ -12,31 +12,38 @@
     text-align: left;
   }
   .blue span{
-    text-align: right;
+    display: none;
   }
   .white{
     text-align: left;
   }
   .white span{
-    text-align: right;
+    display: none;
   }
   .remark{
-    margin-bottom: 1800px;
+    margin-bottom: 1500px;
+  }
+  .remarkTitle{
+    height: 200px;
   }
   .remarkTitle h3{
-    font-size: 30px;
+    font-size: 15px;
+    right: 20px;
     bottom: 250px;
   }
   .remarkTitle h4{
-    font-size: 20px;
+    font-size: 8px;
+    right: 20px;
     bottom: 300px;
   }
   .remarkContent {
     font-size: 15px;
     text-indent: 2em;
+    bottom: 200px;
   }
   .kaicho{
-    right: 30px;
+    width: 150px;
+    right: 10px;
   }
   .main{
     width: 100%;
