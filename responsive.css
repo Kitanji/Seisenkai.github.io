@@ -20,24 +20,32 @@
   .remark{
     margin-bottom: 1100px;
   }
+  .remarkTitle h3{
+    font-size: 50px;
+    bottom: 250px;
+  }
+  .remarkTitle h4{
+    font-size: 40px;
+    bottom: 300px;
+  }
   .remarkContent {
-    font-size: 12px;
+    font-size: 20px;
     text-indent: 2em;
   }
   .main{
     width: 100%;
   }
   .main h2{
-    font-size: 70px;
+    font-size: 100px;
   }
   .main h3{
-    font-size: 35px;
+    font-size: 50px;
   }
   .main p{
-    font-size: 12px;
+    font-size: 20px;
   }
   .main a{
-    font-size: 12px;
+    font-size: 20px;
   }
   
   .sub{
@@ -45,5 +53,7 @@
   }
 }
 @media(min-width: 960px){/*PC用*/
-  
+  footer{
+    border-top: 1px solid #696969;
+  }
 }
