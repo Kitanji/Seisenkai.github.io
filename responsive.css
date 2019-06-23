@@ -1,42 +1,42 @@
 @media(max-width: 750px){/*iphoneXR用*/
-  .mainTitles{
-    font-size: 30px;
-  }
   .headTitle{
     height: 100px;
   }
   .titlelogo{
     width: 250px;
   }
+  .mainTitles{
+    font-size: 20px;
+  }
   .remark{
     margin-bottom: 2500px;
   }
   .remarkTitle h3{
-    font-size: 50px;
+    font-size: 30px;
     bottom: 250px;
   }
   .remarkTitle h4{
-    font-size: 40px;
+    font-size: 20px;
     bottom: 300px;
   }
   .remarkContent {
-    font-size: 30px;
+    font-size: 15px;
     text-indent: 2em;
   }
   .main{
     width: 100%;
   }
   .main h2{
-    font-size: 100px;
+    font-size: 30px;
   }
   .main h3{
-    font-size: 50px;
+    font-size: 20px;
   }
   .main p{
-    font-size: 30px;
+    font-size: 15px;
   }
   .main a{
-    font-size: 30px;
+    font-size: 15px;
   }
   .sub{
     width: 100%;
