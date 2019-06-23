@@ -1,4 +1,10 @@
-@media(max-width: 670px){
+@media(max-width: 900px){
+  .headTitle{
+    height: 100px;
+  }
+  .titlelogo{
+    width: 250px;
+  }
   .main{
     width: 100%;
   }
