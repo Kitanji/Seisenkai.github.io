@@ -17,9 +17,29 @@
   .titlelogo{
     width: 250px;
   }
+  .remark{
+    margin-bottom: 1100px;
+  }
+  .remarkContent {
+    font-size: 12px;
+    text-indent: 2em;
+  }
   .main{
     width: 100%;
   }
+  .main h2{
+    font-size: 70px;
+  }
+  .main h3{
+    font-size: 35px;
+  }
+  .main p{
+    font-size: 12px;
+  }
+  .main a{
+    font-size: 12px;
+  }
+  
   .sub{
     width: 100%;
   }
