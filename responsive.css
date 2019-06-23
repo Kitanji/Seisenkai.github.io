@@ -1,4 +1,7 @@
-@media(max-width: 900px){
+@media(max-width: 670px){
+  .mainTitles{
+    font-size: 30px;
+  }
   .headTitle{
     height: 100px;
   }
