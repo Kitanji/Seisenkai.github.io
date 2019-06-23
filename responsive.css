@@ -21,7 +21,7 @@
     display: none;
   }
   .remark{
-    margin-bottom: 1700px;
+    margin-bottom: 1600px;
   }
   .remarkTitle{
     height: 200px;
@@ -39,7 +39,7 @@
   .remarkContent {
     font-size: 15px;
     text-indent: 2em;
-    bottom: 80px;
+    bottom: 130px;
   }
   .kaicho{
     width: 150px;
