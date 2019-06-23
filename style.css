@@ -1,0 +1,156 @@
+/*header*/
+header{
+  background-color: rgba(70, 130, 180, 0.9);
+}
+
+.headTitle{
+  box-sizing: border-box;
+  height: 85px;
+  width: 100%;
+}
+
+.titlelogo{
+  margin: 20px 0px;
+  width: 200px;
+}
+
+/*box*/
+.box{
+  box-sizing: border-box;
+}
+
+.topWrapper{
+  background-size: cover;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.mainTitles{
+  margin-top: 50px;
+  padding-bottom: 80px;
+  font-size: 40px;
+  text-align: center;
+  font-family: serif;
+}
+.mainTitle {
+  padding: 3px 0px;
+  letter-spacing: 1px;
+  text-indent: 1px;
+}
+.blue{
+  background-color: #191970;
+  color: #f5f5f5;
+}
+.blue span{
+  color: #0000cd;
+}
+.white{
+  color: #dcdcdc;
+}
+.white span{
+  color: #595959;
+}
+
+.remark{
+  text-align: center;
+  margin-bottom: 950px;
+  font-family: serif;
+}
+.remarkTitle{
+  height: 250px;
+  width: 100%;
+  background-color: #c0c0c0;
+  position: absolute;
+}
+.kaicho{
+  width: 200px;
+  position: relative;
+  right: 300px;
+}
+.remarkTitle h3{
+  position: relative;
+  font-size: 40px;
+  bottom: 230px;
+}
+.remarkTitle h4{
+  position: relative;
+  font-size: 30px;
+  bottom: 250px;
+}
+.remarkContent{
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  position: relative;
+  bottom: 280px;
+}
+.remarkContent p{
+  text-indent: 2em;
+}
+.remarkContent ol{
+  margin-left: 40px;
+}
+.main{
+  height: 750px;
+  width: 70%;
+  z-index: 10;
+  float: left;
+  font-family: serif;
+}
+.sub{
+  height: 750px;
+  width: 30%;
+  text-align: center;
+  float: left;
+}
+.mainSub{
+  margin-bottom: 5px;
+  height: 750px;
+}
+.main h2{
+  font-size: 50px;
+  line-height: 0.5em;
+  color: #dcdcdc;
+}
+.main h3{
+  font-size: 25px;
+  line-height: 0.5em;
+}
+.lastsentence{
+  padding-bottom: 30px;
+}
+.main a{
+  margin-bottom: 50px;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #87ceeb;
+  color: #696969;
+  cursor: pointer;
+  box-shadow: 0 7px #191970;
+  text-decoration: none;
+}
+.main a:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+/*footer*/
+footer{
+  /*background-color: #000080*/
+  border-top: 1px solid #696969;
+}
+.footTitle{
+  box-sizing: border-box;
+  height: 65px;
+  width: 100%;
+}
+.footTitle p{
+  text-align: center;
+  float:inherit;
+}
