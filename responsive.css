@@ -7,7 +7,7 @@
 @media(max-width: 412px){/*Android用*/
   
 }
-@media(max-width: 414px){/*iphone XR用*/
+@media(max-width: 414px){/*iphoneXR用*/
   .mainTitles{
     font-size: 30px;
   }
@@ -47,7 +47,6 @@
   .main a{
     font-size: 20px;
   }
-  
   .sub{
     width: 100%;
   }
