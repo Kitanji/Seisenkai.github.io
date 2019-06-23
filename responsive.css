@@ -1,13 +1,13 @@
-@media(min-width: 321px){/*Android用*/
+@media(min-width: 360px){/*Android用*/
   
 }
-@media(min-width: 361px){/*iphone8用*/
+@media(max-width: 375px){/*iphone8用*/
   
 }
-@media(min-width: 376px){/*Android用*/
+@media(max-width: 412px){/*Android用*/
   
 }
-@media(min-width: 413px){/*iphone XR用*/
+@media(max-width: 414px){/*iphone XR用*/
   .mainTitles{
     font-size: 30px;
   }
