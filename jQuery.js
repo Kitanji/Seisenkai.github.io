@@ -1,5 +1,5 @@
 $(function(){
-  $('.titlelogo').hover(
+  $('.headTitle').hover(
     function(){
       $('#title-kaicho').hide();
       $('#kanegon').show();
