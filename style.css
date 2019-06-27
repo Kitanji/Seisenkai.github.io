@@ -11,10 +11,13 @@ header{
 
 .titlelogo{
   margin: 20px 0px;
+}
+#title-kaicho{
   width: 200px;
 }
 #kanegon{
   display: none;
+  height: 45px;
 }
 /*box*/
 .box{
