@@ -1,8 +1,8 @@
 $(function(){
   $('.titlelogo').hover(
     function(){
-      $('#title-kaicho').fadeOut();
-      $('#kanegon').fadeIn();
+      $('#title-kaicho').hide();
+      $('#kanegon').show();
     },
     function(){
       $('#title-kaicho').show();
