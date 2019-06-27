@@ -2,7 +2,7 @@ $(function(){
   $('.headTitle').hover(
     function(){
       $('#title-kaicho').hide();
-      $('#kanegon').show();
+      $('#kanegon').fadeIn(1000);
     },
     function(){
       $('#title-kaicho').show();
