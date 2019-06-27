@@ -1,12 +1,12 @@
 $(function(){
   $('.titlelogo').hover(
     function(){
-      $('#title-kaicho').hide();
+      $('#title-kaicho').fadeOut();
       $('#kanegon').fadeIn();
     },
     function(){
       $('#title-kaicho').show();
-      $('#kanegon').fadeOut();
+      $('#kanegon').hide();
     }
   )
 });
