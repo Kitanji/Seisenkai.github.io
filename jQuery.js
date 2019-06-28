@@ -19,7 +19,7 @@
 
 $(function(){
   //animation();
-  
+
 
   $('.headTitle').hover(
     function(){
@@ -39,7 +39,9 @@ $(function(){
       $('#kanegonOriginal').show();
       $('#kanegonSign').show();
       $('#kanegonComment').show();
-    },
+    }
+  );
+  $('#kanegonOriginal').click(
     function(){
       $('.kaicho').show();
       $('#kaichoSign').show();
