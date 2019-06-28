@@ -36,7 +36,7 @@ $(function(){
       $('#title-kaicho').show();
       $('#kanegon').hide();
     }
-  )
+  );
   $('.kaicho').click(
     function(){
       $('.kaicho').hide();
@@ -54,5 +54,5 @@ $(function(){
       $('#kanegonSign').hide();
       $('#kanegonComment').hide();
     }
-  )
+  );
 });
