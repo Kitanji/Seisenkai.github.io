@@ -16,11 +16,10 @@ function animation(){
 
   });
 }
-$(document).ready(function(){
-  animation();
-});
 
 $(function(){
+  animation();
+
   $('.headTitle').hover(
     function(){
       $('#title-kaicho').hide();
