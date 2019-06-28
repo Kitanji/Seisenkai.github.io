@@ -33,14 +33,22 @@ $(function(){
       $('#kanegon').hide();
     }
   )
-  $('.kaicho').hover(
+  $('.kaicho').click(
     function(){
       $('.kaicho').hide();
+      $('#kaichoSign').hide();
+      $('#kaichoComment').hide();
       $('#kanegonOriginal').show();
+      $('#kanegonSign').show();
+      $('#kanegonComment').show();
     },
     function(){
       $('.kaicho').show();
+      $('#kaichoSign').show();
+      $('#kaichoComment').show();
       $('#kanegonOriginal').hide();
+      $('#kanegonSign').hide();
+      $('#kanegonComment').hide();
     }
   )
 });

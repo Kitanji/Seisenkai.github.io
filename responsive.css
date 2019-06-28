@@ -27,14 +27,30 @@
     height: 200px;
   }
   .remarkTitle h3{
+
+  }
+  #kaichoComment{
     font-size: 18px;
     left: 70px;
     bottom: 150px;
   }
-  .remarkTitle h4{
+  #kaichoSign{
     font-size: 12px;
     left: 70px;
     bottom: 150px;
+  }
+  #kanegonComment{
+    font-size: 18px;
+    left: 70px;
+    bottom: 150px;
+  }
+  #kanegonSign{
+    font-size: 12px;
+    left: 70px;
+    bottom: 150px;
+  }
+  .remarkTitle h4{
+
   }
   .remarkContent {
     font-size: 15px;
@@ -42,6 +58,10 @@
     bottom: 130px;
   }
   .kaicho{
+    width: 150px;
+    right: 100px;
+  }
+  #kanegonOriginal{
     width: 150px;
     right: 100px;
   }

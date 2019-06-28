@@ -84,14 +84,32 @@ header{
   right: 300px;
 }
 .remarkTitle h3{
+
+}
+#kaichoComment{
   position: relative;
   font-size: 40px;
   bottom: 230px;
 }
-.remarkTitle h4{
+#kaichoSign{
   position: relative;
   font-size: 30px;
   bottom: 250px;
+}
+#kanegonComment{
+  position: relative;
+  font-size: 40px;
+  bottom: 230px;
+  display: none;
+}
+#kanegonSign{
+  position: relative;
+  font-size: 30px;
+  bottom: 250px;
+  display: none;
+}
+.remarkTitle h4{
+
 }
 .remarkContent{
   padding: 10px;
