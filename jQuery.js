@@ -1,28 +1,22 @@
-$(function(){
-  animation01();
-});
-function animation01(){
-  $('#SHINSHI').animate({opacity:1;},500,'liner',animation02);
-}
-function animation02(){
-  $('#ALmighty').animate({opacity:1;},500,'liner',animation03);
-}
-function animation03(){
-  $('#Leader').animate({opacity:1;},500,'liner',animation04);
-}
-function animation04(){
-  $('.headTitle').animate({opacity:1;},300,'swing',animation05);
-}
-function animation05(){
-  $('.remark').animate({visibility:visible;},animation06);
-}
-function animation06(){
-  $('.mainSub').animate({visibility:visible;},animation07);
-}
-function animation07(){
-  $('.footTitle').animate({visibility:visible;});
-}
+function animation(){
+  $('#SHINSHI').animate({opacity:1;},500,'liner').promise()
+  .then(function(){
+    return $('#ALmighty').animate({opacity:1;},500,'liner');
+  }).then(function(){
+    $('#Leader').animate({opacity:1;},500,'liner');
+  }).then(function(){
+    $('.headTitle').animate({opacity:1;},300,'swing');
+  }).then(function(){
+    $('.remark').animate({visibility:visible;});
+    $('.mainSub').animate({visibility:visible;});
+    $('.footTitle').animate({visibility:visible;});
+  }).always(function(){
 
+  });
+}
+$(document).ready(function(){
+  animation();
+});
 
 $(function(){
   $('.headTitle').hover(
