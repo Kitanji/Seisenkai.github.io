@@ -1,26 +1,28 @@
 $(function(){
-  var d = new $.Deferred();
-  d.promise()
-  .then(animation01())
-  .then(animation02())
-  .then(animation03());
+  animation01();
 });
-
 function animation01(){
-  $('#body').hide();
-  d.resolve();
+  $('#SHINSHI').animate({opacity:1;},500,'liner',animation02);
 }
 function animation02(){
-  $('.mainTitles').fadeIn(1000);
+  $('#ALmighty').animate({opacity:1;},500,'liner',animation03);
 }
 function animation03(){
-  $('.headTitle').fadeIn(500);
+  $('#Leader').animate({opacity:1;},500,'liner',animation04);
 }
 function animation04(){
-  $('.remark').show();
-  $('.mainSub').show();
-  $('.footTitle').show();
+  $('.headTitle').animate({opacity:1;},300,'swing',animation05);
 }
+function animation05(){
+  $('.remark').animate({visibility:visible;},animation06);
+}
+function animation06(){
+  $('.mainSub').animate({visibility:visible;},animation07);
+}
+function animation07(){
+  $('.footTitle').animate({visibility:visible;});
+}
+
 
 $(function(){
   $('.headTitle').hover(
