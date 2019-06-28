@@ -3,13 +3,15 @@ function animation(){
   .then(function(){
     return $('#ALmighty').animate({opacity:1;},500,'liner');
   }).then(function(){
-    $('#Leader').animate({opacity:1;},500,'liner');
+    return $('#Leader').animate({opacity:1;},500,'liner');
   }).then(function(){
-    $('.headTitle').animate({opacity:1;},300,'swing');
+    return $('#head').animate({opacity:1;},300,'swing');
   }).then(function(){
-    $('.remark').animate({visibility:visible;});
-    $('.mainSub').animate({visibility:visible;});
-    $('.footTitle').animate({visibility:visible;});
+    return $('.remark').animate({visibility:visible;});
+  }).then(function(){
+    return $('.mainSub').animate({visibility:visible;});
+  }).then(function(){
+    return $('.footTitle').animate({visibility:visible;});
   }).always(function(){
 
   });

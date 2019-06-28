@@ -1,13 +1,13 @@
 /*header*/
-header{
+#head{
   background-color: rgba(70, 130, 180, 0.9);
+  opacity: 0;
 }
 
 .headTitle{
   box-sizing: border-box;
   height: 85px;
   width: 100%;
-  opacity: 0;
 }
 
 .titlelogo{
