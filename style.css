@@ -77,6 +77,12 @@ header{
   position: relative;
   right: 300px;
 }
+#kanegonOriginal{
+  display: none;
+  width: 200px;
+  position: relative;
+  right: 300px;
+}
 .remarkTitle h3{
   position: relative;
   font-size: 40px;

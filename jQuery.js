@@ -26,11 +26,21 @@ $(function(){
   $('.headTitle').hover(
     function(){
       $('#title-kaicho').hide();
-      $('#kanegon').fadeIn(1000);
+      $('#kanegon').show();
     },
     function(){
       $('#title-kaicho').show();
       $('#kanegon').hide();
+    }
+  )
+  $('.kaicho').hover(
+    function(){
+      $('.kaicho').hide();
+      $('#kanegonOriginal').show();
+    },
+    function(){
+      $('.kaicho').show();
+      $('#kanegonOriginal').hide();
     }
   )
 });
