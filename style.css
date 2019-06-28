@@ -1,7 +1,6 @@
 /*header*/
 #head{
   background-color: rgba(70, 130, 180, 0.9);
-  opacity: 0;
 }
 
 .headTitle{
@@ -61,20 +60,11 @@
 .white span{
   color: #dcdcdc;
 }
-#SHINSHI{
-  opacity: 0;
-}
-#Almighty{
-  opacity: 0;
-}
-#Leader{
-  opacity: 0;
-}
+
 .remark{
   text-align: center;
   margin-bottom: 950px;
   font-family: serif;
-  visibility: hidden;
 }
 .remarkTitle{
   height: 250px;
@@ -150,7 +140,6 @@
 .mainSub{
   margin-bottom: 5px;
   height: 750px;
-  visibility: hidden;
 }
 .main h2{
   font-size: 50px;
@@ -190,7 +179,6 @@ footer{
   box-sizing: border-box;
   height: 65px;
   width: 100%;
-  visibility: hidden;
 }
 .footTitle p{
   text-align: center;
