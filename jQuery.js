@@ -19,13 +19,7 @@
 
 $(function(){
   //animation();
-  $('#SHINSHI').animate({'opacity':'1';},500,'liner');
-  $('#ALmighty').animate({'opacity':'1';},500,'liner');
-  $('#Leader').animate({'opacity':'1';},500,'liner');
-  $('#head').animate({'opacity':'1';},300,'swing');
-  $('.remark').animate({'visibility':'visible';});
-  $('.mainSub').animate({'visibility':'visible';});
-  $('.footTitle').animate({'visibility':'visible';});
+  
 
   $('.headTitle').hover(
     function(){
