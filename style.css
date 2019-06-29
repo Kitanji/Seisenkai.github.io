@@ -1,6 +1,7 @@
 /*header*/
 #head{
   background-color: rgba(70, 130, 180, 0.9);
+  opacity: 0;
 }
 
 .headTitle{
@@ -60,7 +61,15 @@
 .white span{
   color: #dcdcdc;
 }
-
+#SHINSHI{
+  opacity: 0;
+}
+#Almighty{
+  opacity: 0;
+}
+#Leader{
+  opacity: 0;
+}
 .remark{
   text-align: center;
   margin-bottom: 950px;
