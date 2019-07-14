@@ -19,7 +19,6 @@ function animation(){
 $(function(){
   animation();
 
-
   $('.headTitle').hover(
     function(){
       $('#title-kaicho').hide();
