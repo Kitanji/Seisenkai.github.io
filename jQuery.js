@@ -9,6 +9,8 @@ function animation(){
   }).then(function(){
     return $('.remark').animate({'visibility':'visible'});
   }).then(function(){
+    return $('#kaichoComment').animate({'visibility':'visible'});
+  }).then(function(){
     return $('.mainSub').animate({'visibility':'visible'});
   }).then(function(){
     return $('.footTitle').animate({'visibility':'visible'});
